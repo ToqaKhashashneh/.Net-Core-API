@@ -3,6 +3,7 @@ using AngularApp1.Server.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using AngularApp1.Server.IDataService;
+using AngularApp1.Server.Models.Dto;
 namespace AngularApp1.Server.Controllers
 {
     [Route("api/[controller]")]
@@ -67,18 +68,57 @@ namespace AngularApp1.Server.Controllers
         }
 
 
-        [HttpDelete("DeleteCategory/{id}")] 
+        [HttpDelete("DeleteCategory/{id}")]
         public IActionResult DeleteCategory(int id)
         {
             var category = _data.DeleteCategory(id);
             if (category == true)
             {
-                
+
                 return NoContent();
             }
             return NotFound();
 
         }
+
+
+
+        //[HttpPost("add")]
+        //public IActionResult AddCategory([FromBody] CategoryDto dto)
+        //{
+        //    if (dto == null)
+        //    {
+        //        return BadRequest("Category data is null");
+        //    }
+        //    _data.addCategory(dto);
+        //    return Ok(new { message = "Category added successfully" });
+        //}
+
+        [HttpPost("add")]
+        public IActionResult AddCategory([FromBody] CategoryDto dto)
+        {
+            if (dto == null)
+             return BadRequest();
+            _data.AddCategory(dto);
+            return Ok();
+
+        }
+
+
+        [HttpPut("update/{id}")]
+        public IActionResult UpdateCategory(int id, [FromForm] CategoryDto dto)
+        {
+            if (dto == null )
+            return BadRequest("Category data is null");
+
+            var category = _data.UpdateCategory(id, dto);
+            return Ok();
+
+
+        }
+
+
+
 
 
     }

@@ -1,4 +1,5 @@
 ﻿using AngularApp1.Server.Models;
+using AngularApp1.Server.Models.Dto;
 
 namespace AngularApp1.Server.IDataService
 {
@@ -14,6 +15,11 @@ namespace AngularApp1.Server.IDataService
 
         public bool DeleteCategory(int id);
 
+        //public void addCategory(CategoryDto dto);
+
+        public void AddCategory(CategoryDto dto);
+
+        public Category UpdateCategory(int id, CategoryDto dto);
 
 
     }

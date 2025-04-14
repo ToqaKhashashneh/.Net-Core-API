@@ -1,5 +1,6 @@
 ﻿
 using AngularApp1.Server.Models;
+using AngularApp1.Server.Models.Dto;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AngularApp1.Server.DataService
@@ -28,11 +29,12 @@ namespace AngularApp1.Server.DataService
         }
 
 
-        public Category GetCategoryById(int id) {
-
+        public Category GetCategoryById(int id)
+        {
             var category = _db.Categories.Find(id); //find the category by id
-            return category;
-
+            if (category != null)
+                return category;
+            return null; 
         }
 
         public List<Category> GetCategoryByName(string name)
@@ -54,19 +56,61 @@ namespace AngularApp1.Server.DataService
 
         }
 
+        //public void addCategory(CategoryDto dto)
+        //{
+
+        //    var category = new Category
+        //    {
+        //        CategoryName = dto.Name,
+        //        CategoryDescription = dto.Description
+        //    };
+
+        //    _db.Categories.Add(category);
+        //    _db.SaveChanges();
+        //}
+
+        public void AddCategory(CategoryDto dto)
+        {
+            var category = new Category
+
+            {
+                CategoryName = dto.Name,
+                CategoryDescription = dto.Description
+            };
+                _db.Categories.Add(category);
+                _db.SaveChanges();
+        }
+
+
+        public Category UpdateCategory(int id, CategoryDto dto)
+        {
+            var category = _db.Categories.Find(id);
+            if (category != null)
+            {
+                category.CategoryName = dto.Name;
+                category.CategoryDescription = dto.Description;
+                _db.SaveChanges();
+                return category;
+            }
+            return null;
+        }
+
+
+
+
 
         //............................................Product.......................................................
 
-        public Product GetProduct(int id)
-        {
-            var product = _db.Products.Find(id); //find the product by id
+        //public Product GetProduct(int id)
+        //{
+        //    var product = _db.Products.Find(id); //find the product by id
 
-            return product;
-
-
+        //    return product;
 
 
-        }
+
+
+        //}
     }
 
 }
