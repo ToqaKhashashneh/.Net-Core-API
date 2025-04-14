@@ -1,0 +1,17 @@
+.custom-btn {
+  background-color: rgb(35, 150, 147) !important;
+  border-color: rgb(35, 150, 147) !important;
+  color: white !important;
+}
+
+  .custom-btn:hover {
+    background-color: rgb(30, 130, 127) !important;
+    border-color: rgb(30, 130, 127) !important;
+  }
+
+.custom-form {
+  border: 2px solid rgb(35, 150, 147);
+  border-radius: 10px;
+  padding: 20px;
+  background: white;
+}

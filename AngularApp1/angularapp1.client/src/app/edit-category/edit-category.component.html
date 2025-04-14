@@ -1,0 +1,32 @@
+
+<div class="bg container-fluid">
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+
+        <form class="custom-form shadow" #update="ngForm" (ngSubmit)=" UpdateCategory(update.value)">
+
+          <h3 class="text-center text-dark mb-4"> Edit Category</h3>
+          <div class="mb-6">
+            <label for="name" class="form-label">Category Name</label>
+            <input type="text" class="form-control" name="Name" ngModel [(ngModel)]="CategoryContainer.categoryName" required>
+          </div>
+          <!--//name here come from dto-->
+          <br />
+          <div class="mb-6">
+            <label for="text" class="form-label">Category Description</label>
+            <input type="text" class="form-control" name="Description" ngModel [(ngModel)]="CategoryContainer.categoryDescription" required>
+          </div>
+          <br />
+          
+
+
+          <br />
+
+
+          <button type="submit" class="btn custom-btn w-100">Save Changes</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

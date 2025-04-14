@@ -42,7 +42,7 @@ namespace AngularApp1.Server.Controllers
             return Ok(categories);
         }
 
-        [HttpGet("getstuentbyId/{id}")]
+        [HttpGet("getCategorybyId/{id}")]
         public IActionResult GetCategoryById(int id) //get a specific category
         {
             var category = _data.GetCategoryById(id);
@@ -50,7 +50,7 @@ namespace AngularApp1.Server.Controllers
             {
                 return NotFound();
             }
-            return Ok(category);
+            return Ok(category);  //inside status accepts obj, variable but not string
         }
 
 
@@ -95,7 +95,7 @@ namespace AngularApp1.Server.Controllers
         //}
 
         [HttpPost("add")]
-        public IActionResult AddCategory([FromBody] CategoryDto dto)
+        public IActionResult AddCategory([FromForm] CategoryDto dto)
         {
             if (dto == null)
              return BadRequest();
@@ -114,8 +114,10 @@ namespace AngularApp1.Server.Controllers
             var category = _data.UpdateCategory(id, dto);
             return Ok();
 
-
+            
         }
+
+
 
 
 

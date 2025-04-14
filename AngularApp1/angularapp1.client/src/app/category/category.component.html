@@ -1,11 +1,38 @@
-<p>category works!</p>
 
 
-<div *ngFor="let category of categoryContainer">
+<br />
+<br />
+<a routerLink="/AddCategory"class="btn btn-primary" > Add Category</a>
+<br />
+<br />
+<br />
 
-  <h1>{{category.categoryId}}</h1>
-  <h1>{{category.categoryName}}</h1>
-  <h1>{{category.categoryDescription}}</h1>
 
+<table class="table table-hover table-bordered table-success">
+  <thead>
+    <tr>
+      <th scope="col">Category ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Description</th>
+      <th scope="col">Action</th>
 
-</div>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let category of categoryContainer">
+      <th scope="row">{{category.categoryId}}</th>
+      <td>{{category.categoryName}}</td>
+      <td>{{category.categoryDescription}}</td>
+      <td>
+        <a class="btn btn-secondary" routerLink="/EditCategory/{{category.categoryId}}"> Edit Category</a>   <br /> <br />
+
+        <button class="btn btn-danger" (click)="DeleteCategory (category.categoryId) ">Delete Category</button>
+        <br /> <br />
+        <a class="btn btn-success " routerLink="/CategoryDetails/{{category.categoryId}}">Get Category By Id </a>
+
+      </td>
+
+    </tr>
+
+  </tbody>
+</table>

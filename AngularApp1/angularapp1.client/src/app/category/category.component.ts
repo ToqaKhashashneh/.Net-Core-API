@@ -24,7 +24,17 @@ export class CategoryComponent {
     })
   }
     
+  DeleteCategory(id: any) {
+    this._url.DeleteCategory(id).subscribe(() => {
+      alert("Deleted Successully!")
+      this.GetCategories();
+    })
+  }
 
+  GetCategoryById(id: any) {
+
+
+  }
 
 
 }
