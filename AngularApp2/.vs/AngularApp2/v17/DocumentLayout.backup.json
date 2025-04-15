@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|c:\\users\\user\\desktop\\projects\\masterpiece\\angularapp2\\angularapp2.server\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|solutionrelative:angularapp2.server\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|c:\\users\\user\\desktop\\projects\\masterpiece\\angularapp2\\angularapp2.server\\generalidataservice\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|solutionrelative:angularapp2.server\\generalidataservice\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|c:\\users\\user\\desktop\\projects\\masterpiece\\angularapp2\\angularapp2.server\\models\\dto\\regestrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|solutionrelative:angularapp2.server\\models\\dto\\regestrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|c:\\users\\user\\desktop\\projects\\masterpiece\\angularapp2\\angularapp2.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|solutionrelative:angularapp2.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|c:\\users\\user\\desktop\\projects\\masterpiece\\angularapp2\\angularapp2.server\\generaldataservice\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|solutionrelative:angularapp2.server\\generaldataservice\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|c:\\users\\user\\desktop\\projects\\masterpiece\\angularapp2\\angularapp2.server\\models\\dto\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887987E2-B753-4F0A-9549-3AC66076D988}|AngularApp2.Server\\AngularApp2.Server.csproj|solutionrelative:angularapp2.server\\models\\dto\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "AngularApp2.Server\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "AngularApp2.Server\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:40:10.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\Models\\Dto\\LoginUserDto.cs",
+              "RelativeDocumentMoniker": "AngularApp2.Server\\Models\\Dto\\LoginUserDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\Models\\Dto\\LoginUserDto.cs",
+              "RelativeToolTip": "AngularApp2.Server\\Models\\Dto\\LoginUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:32:45.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "usersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\Controllers\\usersController.cs",
+              "RelativeDocumentMoniker": "AngularApp2.Server\\Controllers\\usersController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\Controllers\\usersController.cs",
+              "RelativeToolTip": "AngularApp2.Server\\Controllers\\usersController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAADwv10AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T11:09:14.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegestrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\Models\\Dto\\RegestrationDto.cs",
+              "RelativeDocumentMoniker": "AngularApp2.Server\\Models\\Dto\\RegestrationDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\Models\\Dto\\RegestrationDto.cs",
+              "RelativeToolTip": "AngularApp2.Server\\Models\\Dto\\RegestrationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:46:28.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDataService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\GeneralIDataService\\IDataService.cs",
+              "RelativeDocumentMoniker": "AngularApp2.Server\\GeneralIDataService\\IDataService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\GeneralIDataService\\IDataService.cs",
+              "RelativeToolTip": "AngularApp2.Server\\GeneralIDataService\\IDataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:46:55.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\GeneralDataService\\DataService.cs",
+              "RelativeDocumentMoniker": "AngularApp2.Server\\GeneralDataService\\DataService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Projects\\MasterPiece\\AngularApp2\\AngularApp2.Server\\GeneralDataService\\DataService.cs",
+              "RelativeToolTip": "AngularApp2.Server\\GeneralDataService\\DataService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwEQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:37:43.619Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
